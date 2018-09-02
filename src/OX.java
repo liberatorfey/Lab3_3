@@ -58,9 +58,7 @@ public class OX {
             }else if(currentPlayer.equals("O")) {
                 scoreO++;
             }
-        }
-
-        if(isDraw()) {
+        }else if(isDraw()) {
             scoreDraw++;
         }
 

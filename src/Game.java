@@ -52,7 +52,7 @@ public class Game {
             row = sc.nextInt();
             canPut = ox.put(col, row);
             if (!canPut) {
-                System.out.println("Please input number between 0-2");
+                System.out.println("Please input number between 0-2 or please put elsewhere");
             }
         }while(!canPut);
     }
